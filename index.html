@@ -3,7 +3,7 @@
 <style>
 /* Layout: a portrait phone screen drawn like a handheld game. A chunky-pixel sky fills it,
    a HUD sits on top and a four-button dock on the bottom. Type sits on the font's 12px grid (12/18/24/36). */
-@font-face { font-family: "Pix32"; src: url(data:font/woff2;base64,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) format("woff2"); font-display: block; }
+@font-face { font-family: "Pix32"; src: url(data:font/woff2;base64,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) format("woff2"); font-display: block; }
 :root {
   color-scheme: dark;
   --night: #0d1030;
@@ -91,6 +91,8 @@ small, .small { font-size: 12px; line-height: 1.3; }
 .checks button::after { content: "OFF"; font-size: 12px; color: var(--dim); }
 .checks button[aria-pressed="true"] { border-color: var(--aqua); }
 .checks button[aria-pressed="true"]::after { content: "ON"; color: var(--night); background: var(--aqua); padding: 0 4px; }
+.follow { position: absolute; left: 12px; right: 12px; bottom: calc(env(safe-area-inset-bottom, 0px) + 98px); z-index: 4;
+          padding: 12px; font-size: 18px; background: var(--sun); color: var(--night); border-color: var(--ink); }
 .toast { position: absolute; left: 12px; right: 12px; top: calc(env(safe-area-inset-top, 0px) + 96px); padding: 8px 10px;
          font-size: 12px; line-height: 1.5; color: var(--ink); z-index: 20; text-align: center; border-color: var(--sun); }
 .game { position: absolute; inset: 0; z-index: 8; background: var(--night); display: grid; grid-template-rows: auto 1fr; gap: 12px;
@@ -127,6 +129,7 @@ small, .small { font-size: 12px; line-height: 1.3; }
 </header>
 
 <div class="status" id="status"></div>
+<button class="follow box" id="follow-btn" hidden>TAP SO THE SKY MOVES WITH YOUR PHONE</button>
 
 <nav class="dock" aria-label="Controls">
   <button class="box" id="search-btn" title="Find a star, planet or constellation"><svg viewBox="0 0 12 12" data-ico="3,1,4,1 2,2,1,1 7,2,1,1 1,3,1,4 8,3,1,4 2,7,1,1 7,7,1,1 3,8,4,1 8,8,1,1 9,9,1,1 10,10,1,1"></svg>FIND</button>
@@ -316,7 +319,7 @@ const state = {
   layers: { snames: true, lines: true, cnames: true, planets: true, mw: true, grid: false },
   sensor: false, selected: null, sunAlt: -90, moon: null,
 };
-const sens = { basis: null, gotEvent: false, sawAbsolute: false, offset: 0 };
+const sens = { basis: null, gotEvent: false, sawAbsolute: false, offset: 0, haveOffset: false, count: 0, compass: false, rate: 0 };
 let observer = null, astroTime = null;
 const started = Date.now();
 
@@ -716,12 +719,18 @@ function updateChrome() {
   $('cond').textContent = `${cond} · Moon: ${moonPhaseName(state.moon.phase)} ${(state.moon.lit * 100).toFixed(0)}%`;
   $('live-badge').textContent = state.live ? 'LIVE' : 'SET';
   $('live-badge').classList.toggle('off', !state.live);
-  if (Date.now() - started < 15000) $('status').textContent = 'Drag to look around · pinch to zoom · tap a star';
+  if (state.sensor) { /* the 1 s clock tick shows sensor status */ }
+  else if (Date.now() - started < 15000) $('status').textContent = 'Drag to look around · pinch to zoom · tap a star';
   else $('status').textContent = (state.live ? 'Sky recalculated every 6 s · last at ' : 'Showing a fixed time · calculated at ') +
     state.lastCompute.toLocaleTimeString([], { hour12: false }) + (state.sensor ? ' · following your phone' : '');
   tickClock();
 }
 function tickClock() {
+  if (state.sensor) {
+    sens.rate = sens.count; sens.count = 0;
+    $('status').textContent = sens.rate ? `Following your phone · ${sens.rate} readings/s · compass ${sens.compass ? 'on' : 'off, direction may be wrong'}`
+                                        : 'Following your phone · waiting for motion readings…';
+  }
   const d = state.live ? new Date() : state.custom;
   $('clock-time').textContent = d.toLocaleTimeString([], { hour12: false });
   $('clock-date').textContent = d.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' });
@@ -758,17 +767,20 @@ function startGps() {
 /* ---------- pointing mode (device orientation) ---------- */
 let autoFollow = !(window.DeviceOrientationEvent && typeof window.DeviceOrientationEvent.requestPermission === 'function');
 function onOrient(ev) {
-  if (ev.alpha == null || ev.beta == null) return;
+  if (ev.beta == null) return;
   if (!state.sensor) {
     if (!autoFollow || !window.matchMedia('(pointer: coarse)').matches) return;
     autoFollow = false; sens.basis = null; state.sensor = true;
     $('compass-btn').setAttribute('aria-pressed', 'true');
     if (state.view.fov > 100) state.view.fov = 75;
+    $('follow-btn').hidden = true;
     toast('Following your phone: aim it at the sky. Tap POINT to stop.', 6000);
   }
-  let alpha = ev.alpha;
-  if (typeof ev.webkitCompassHeading === 'number') {          // iOS: alpha is relative, heading is absolute
-    if (Math.abs(ev.beta) < 60) sens.offset = (360 - ev.webkitCompassHeading) - ev.alpha;
+  sens.count++;
+  let alpha = ev.alpha == null ? 0 : ev.alpha;                // no compass: tilt still works, direction does not
+  sens.compass = ev.alpha != null && (ev.absolute || typeof ev.webkitCompassHeading === 'number');
+  if (typeof ev.webkitCompassHeading === 'number' && ev.alpha != null) {   // iOS: alpha is relative, heading is absolute
+    if (Math.abs(ev.beta) < 60 || !sens.haveOffset) { sens.offset = (360 - ev.webkitCompassHeading) - ev.alpha; sens.haveOffset = true; }
     alpha += sens.offset;
   } else if (ev.absolute) sens.sawAbsolute = true;
   else if (sens.sawAbsolute) return;
@@ -797,6 +809,7 @@ function onOrient(ev) {
 }
 function setSensor(on) {
   autoFollow = false; state.sensor = on; $('compass-btn').setAttribute('aria-pressed', String(on));
+  if (on) $('follow-btn').hidden = true;
   if (!on) {
     if (sens.basis) {            // keep looking where the phone was pointing
       state.view.az = (Math.atan2(sens.basis.f[0], sens.basis.f[1]) * R2D + 360) % 360;
@@ -812,18 +825,23 @@ function setSensor(on) {
       if (state.sensor && !sens.gotEvent) {
         setSensor(false);
         toast(embedded ? 'This preview blocks the motion sensors, so the sky cannot turn with your phone here. ' + OWN_SITE
-          : 'No motion sensors answered. On a phone, check motion access is allowed for this site; on a computer, drag the sky instead.', 9000);
+          : sens.denied ? 'Motion access is off for this site. iPhone: Settings > Apps > Safari > Advanced > Website Data, delete github.io, reload, tap POINT and choose Allow.'
+          : 'No motion sensors answered. On a phone, check motion access is allowed for this site; on a computer, drag the sky instead.', 12000);
       }
     }, 1800);
   };
   const DOE = window.DeviceOrientationEvent;
   if (DOE && typeof DOE.requestPermission === 'function') {
-    DOE.requestPermission().then(r => { if (r === 'granted') begin(); else { setSensor(false); toast('Motion access was not allowed. Close and reopen the page, tap POINT and choose Allow.', 8000); } })
-      .catch(() => { setSensor(false); toast(embedded ? 'This preview blocks the motion sensors. ' + OWN_SITE : 'Motion sensors are not available here.', 9000); });
-  } else begin();
+    // Some browsers answer "denied" yet still send readings, so judge by whether readings arrive.
+    DOE.requestPermission().then(r => { sens.denied = r !== 'granted'; begin(); }, () => { sens.denied = false; begin(); });
+  } else { sens.denied = false; begin(); }
 }
 window.addEventListener('deviceorientationabsolute', onOrient);
 window.addEventListener('deviceorientation', onOrient);
+$('follow-btn').addEventListener('click', () => setSensor(true));
+setTimeout(() => {   // on phones, offer the follow mode up front unless it already started by itself
+  if (!embedded && !state.sensor && window.DeviceOrientationEvent && window.matchMedia('(pointer: coarse)').matches) $('follow-btn').hidden = false;
+}, 1500);
 
 /* ---------- pointer input ---------- */
 const pointers = new Map(); let gesture = null;
@@ -1081,7 +1099,7 @@ setInterval(() => { if (state.live) safeCompute(); }, REFRESH_MS);
 setInterval(tickClock, 1000);
 if (document.fonts && document.fonts.load) Promise.all([document.fonts.load(FONT_S), document.fonts.load(FONT_L)]).then(requestRender, requestRender);
 try { if (navigator.wakeLock) navigator.wakeLock.request('screen').catch(() => {}); } catch (e) {}
-window.__sky = { state, BODIES, S, sname, altOf, azOf, hor: i => [he[i], hn[i], hu[i]], compute };
+window.__sky = { state, sens, BODIES, S, sname, altOf, azOf, hor: i => [he[i], hn[i], hu[i]], compute };
 })();
 </script>
 </body></html>
